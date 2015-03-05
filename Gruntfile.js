@@ -31,8 +31,7 @@ module.exports = function(grunt) {
                 },
                 
                 files: [{
-                    base: './test/common/*.less',
-                    src: './test/**/*.less'
+                    src: './test/src/**/*.less'
                 }]
             }
         }
