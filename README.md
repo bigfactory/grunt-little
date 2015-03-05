@@ -1,35 +1,40 @@
 # grunt-little
 
-> less dirctory walk and compiler for grunt
+> compile less files and output the corresponding css file with the same name in the same directory.
 
-## 环境依赖
+## Environment
 Grunt `~0.4.5`
 
-## 安装
+## Install
 ```
 $ npm install grunt-little --save-dev
 ```
 
-## 配置
+## Config
 ```
 grunt.loadNpmTasks('grunt-little');
 ```
 
-### 任务配置
+## Task Config
 
 ```
 grunt.initConfig({
     little: {
         compile: {
+            //base file, can be used to define base variables for example.
+            options: {
+                baseFiles: ['./test/common/*.less']
+            },
+            
             files: [{
-                src: './test/**/*.less'
+                src: './test/src/**/*.less'
             }]
         }
     }
 });
 ```
 
-## 使用
+## Usage
 
 ```
 $ grunt little:compile
