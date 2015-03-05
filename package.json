@@ -1,7 +1,7 @@
 {
     "name": "grunt-little",
     "description": "less compiler",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "homepage": "https://github.com/bigfactory/grunt-little",
     "author": {
         "name": "xiaocong.hxc",
