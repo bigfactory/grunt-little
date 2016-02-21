@@ -14,10 +14,12 @@
     "bugs": {
         "url": "https://github.com/bigfactory/grunt-little/issues"
     },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/bigfactory/grunt-little/blob/master/LICENSE-MIT"
-    }],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/bigfactory/grunt-little/blob/master/LICENSE-MIT"
+        }
+    ],
     "engines": {
         "node": ">= 0.8.0"
     },
@@ -37,7 +39,7 @@
         "grunt": "~0.4.5"
     },
     "peerDependencies": {
-        "grunt": "~0.4.5"
+        "grunt": ">=0.4.0"
     },
     "keywords": [
         "gruntplugin"
